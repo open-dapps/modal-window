@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Package" pattern="file[modal-window]:package//*" />
+</component>

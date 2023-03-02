@@ -1,0 +1,31 @@
+{
+    "name": "@opendapps/modal-window",
+    "version": "0.0.0",
+    "author": "Alexandr <re-knownout> knownout@hotmail.com",
+    "license": "MIT",
+    "description": "Modal window controller and react-component",
+    "main": "dist/modal-window.js",
+    "typings": "dist/modal-window.d.ts",
+    "keywords": [
+        "modal",
+        "modal-windows",
+        "react",
+        "mobx"
+    ],
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/open-dapps/modal-window.git",
+        "directory": "src/package"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "bugs": {
+        "url": "https://github.com/open-dapps/modal-window/issues"
+    },
+    "homepage": "https://github.com/open-dapps/modal-window#readme"
+}
