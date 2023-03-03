@@ -1,6 +1,6 @@
 {
     "name": "@opendapps/modal-window",
-    "version": "0.0.9",
+    "version": "0.0.2",
     "author": "Alexandr <re-knownout> knownout@hotmail.com",
     "license": "MIT",
     "description": "Modal window controller and react-component",
@@ -27,5 +27,12 @@
     "bugs": {
         "url": "https://github.com/open-dapps/modal-window/issues"
     },
-    "homepage": "https://github.com/open-dapps/modal-window#readme"
+    "homepage": "https://github.com/open-dapps/modal-window#readme",
+    "dependencies": {
+        "mobx": "^6.6.2",
+        "mobx-react-lite": "^3.4.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "@knownout/lib": "^0.1.4"
+    }
 }

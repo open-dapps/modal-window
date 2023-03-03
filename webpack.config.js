@@ -44,32 +44,9 @@ module.exports = {
                 }
             },
             {
-                test: /\.(scss)$/,
-                use: [
-                    {
-                        loader: 'style-loader',
-                    },
-                    {
-                        loader: 'css-loader',
-                    },
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            postcssOptions: {
-                                plugins: function () {
-                                    return [require('precss'), require('autoprefixer')];
-                                },
-                            },
-                        },
-                    },
-                    {
-                        loader: require.resolve('sass-loader'),
-                        options: {
-                            implementation: require('sass'),
-                        },
-                    },
-                ],
-            },
+                test: /\.s[ac]ss$/i,
+                use: [ MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader" ]
+            }
         ]
     },
 

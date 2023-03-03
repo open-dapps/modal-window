@@ -3,3 +3,4 @@
 
 cd ./package || exit
 npm version patch --no-git-tag-version
+git add .
