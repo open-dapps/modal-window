@@ -1,6 +1,6 @@
 {
     "name": "@opendapps/modal-window",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Alexandr <re-knownout> knownout@hotmail.com",
     "license": "MIT",
     "description": "Modal window controller and react-component",
