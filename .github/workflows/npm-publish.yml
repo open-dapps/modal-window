@@ -18,7 +18,6 @@ jobs:
       - run: yarn install
       - run: yarn run test
       - run: yarn run build:package
-      - run: cd ./package
-      - run: yarn publish --access public
+      - run: cd ./package && yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
