@@ -14,7 +14,7 @@ const packageConfig = Object.assign(defaultConfig, {
     },
 
     entry: {
-        lib: path.resolve(__dirname, "package", "modal-window"),
+        "modal-window": path.resolve(__dirname, "package", "modal-window"),
         "src/modal-window-controller": path.resolve(__dirname, "package", "src", "modal-window-controller.ts"),
         "src/ModalWindow/index": path.resolve(__dirname, "package", "src", "ModalWindow", "index.ts")
     },
